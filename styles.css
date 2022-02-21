@@ -1,0 +1,44 @@
+h1{
+	font-family: 'Prompt', sans-serif;
+	font-size: 35px;
+	text-align: center;
+
+}
+
+h2{
+	font-family: 'Prompt', sans-serif;
+	font-size: 30px;
+}
+
+p, a{
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+}
+
+div.center{
+	text-align: center;
+}
+
+
+div.code p{
+	font-size: 15px;
+	margin: 10px 250px 0px
+}
+
+h2{
+	margin: 50px 250px 0px;
+}
+
+p{
+	margin: 20px 250px 0px;
+}
+
+a{
+	margin: 200px 250px 0px;
+}
+
+a:visited {
+	color: teal;
+	background-color: transparent;
+	text-decoration: none;
+}
