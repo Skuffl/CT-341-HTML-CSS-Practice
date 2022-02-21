@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+   <title>Izzabelle Ross HMTL CSS Practice</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt&family=Roboto:wght@300;0&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="styles.css">
+  </head>
+  <body style="background-color: yellow;">
+    <main>
+    	<h1>Hello World!</h1>
+
+			<article>
+        <h2>About</h2>
+    		<p>A <b>"Hello, World!"</b> program is generally a computer program that outputs or displays the message "Hello, World!". This program is very simple to write in many programming languages, and is often used to illustrate a language's basic syntax. "Hello, World!" programs are often the first a student learns to write in a given language, and they can also be used as a sanity test to ensure computer software intended to compile or run source code is correctly installed, and that its operator understands how to use it.</p>
+    		
+        <h2>History</h2>
+        <p>Brian Kernighan, author of one of the most widely read programming books, "C Programming Language", also created "Hello, World". He first referenced ‘Hello World’ in the C Programming Language book’s predecessor: A Tutorial Introduction to the Programming Language B published in 1973.</p>
+        <div class="code">
+          <p style="color: blue;"><em>main( ) {</em></p>
+          <p style="color: blue;"><em>extrn a, b, c;</em></p>
+          <p style="color: blue;"><em>putchar(a); putchar(b); putchar(c); putchar(’!*n’);</em></p>
+          <p style="color: blue;"><em>} 1 ’hell’;</em></p>
+          <p style="color: blue;"><em>b ’o, w’;</em></p>
+          <p style="color: blue;"><em>c ’orld’;</em></p>
+        </div>
+        <p>Unfortunately, the legend himself can’t definitely pinpoint when or why he chose the words “Hello, World.” When asked what sparked the idea for the name “Hello, World” in interview with Forbes India, he said his memory’s dim.</p>
+
+        <h2>Variations in Language</h2>
+        <p><b>"Hello, World!" programs vary in complexity between different languages.</b> In some languages, particularly scripting languages, the "Hello, World!" program can be written as a single statement, while in others (particularly many low-level languages) there can be many more statements required. For example, in Python, to print the string Hello, World! followed by a newline, one only needs to write print("Hello, World!"). In contrast, the equivalent code in C++ requires the import of the input/output software library, the manual declaration of an entry point, and the explicit instruction that the output string should be sent to the standard output stream. Generally, programming languages that give the programmer more control over the machine will result in more complex "Hello, World" programs.</p>
+    			
+        <p>"Time to hello world" (TTHW) is the time it takes to author a "Hello, World!" program in a given programming language. This is one measure of a programming language's ease-of-use; since the program is meant as an introduction for people unfamiliar with the language, a more complex "Hello, World!" program may indicate that the programming language is less approachable. The concept has been extended beyond programming languages to APIs, as a measure of how simple it is for a new developer to get a basic example working; a shorter time indicates an easier API for developers to adopt.</p>
+    		
+        <h2>Impact</h2>
+        <p>It's the most famous program. ... As a function, the computer program simply tells the computer to display the words “Hello, World!” Traditionally, it's the first program developers use to test systems. For programmers, seeing the two words on the screen means their code can compile, load, run and they can see the output.</p>
+        
+        <a href="https://en.wikipedia.org/wiki/%22Hello,_World!%22_program">Click here to read more</a>
+		  </article>
+      <section>
+        <div class="center">
+          <video width="640" height="480" controls autoplay>
+            <source src="media/hello_world.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <br></br>
+          <a href="https://pixabay.com/videos/id-28320/">Original Video</a>
+        </div>
+
+      </section>
+    </main>
+  </body>
+</html>
